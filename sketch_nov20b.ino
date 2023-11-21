@@ -33,7 +33,7 @@ float R_F_duty = 0;
 float R_B_duty = 0;
 
 float roll_trim = -4.00; //ロール（左右）方向の偏りを矯正
-float pitch_trim = -1.00; //ピッチ（前後）方向の偏りを矯正
+float pitch_trim = 5.00; //ピッチ（前後）方向の偏りを矯正
 float yaw_trim = 5.00; //ヨー（自転）方向の偏りを矯正
 
 int initialize_number = 200; //ジャイロ校正時のサンプリング数
